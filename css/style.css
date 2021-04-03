@@ -13,6 +13,7 @@ body, html {
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
+  background-image: url("images/white-wood.jpg");
 }
 
 h4 {
@@ -31,6 +32,9 @@ h4 {
 
 .indifferent {
   background-color: #dddd22;
+}
+img{
+  border: solid;
 }
 
 .dubious {
