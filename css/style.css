@@ -31,10 +31,14 @@ h4 {
 
 .indifferent {
   background-color: #dddd22;
+  border: 1px solid #ddcc22;
+  box-shadow:  -1px 1px #ddcc22, -2px 2px #ddcc22, -3px 3px #ddcc22, -4px 4px #ddcc22, -5px 5px #ddcc22;
 }
 
 .dubious {
   background-color: #dd4444;
+  border: 1px solid #dd3344;
+  box-shadow:  -1px 1px #dd3344, -2px 2px #dd3344, -3px 3px #dd3344, -4px 4px #dd3344, -5px 5px #dd3344;
 }
 
 .column {
@@ -53,4 +57,9 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  border: "dark gray" solid 1px;
+  box-sizing: border-box;
 }
